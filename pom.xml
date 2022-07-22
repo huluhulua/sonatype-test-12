@@ -9,12 +9,12 @@
 		<version>2.6.3</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.utc</groupId>
+	<groupId>com.example</groupId>
 	<artifactId>ngtxptp</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
-	<name>ngtxptp</name>
-	<description>ngtxptp backend service</description>
+	<name>example-12</name>
+	<description>example-12 backend service</description>
 	<properties>
 		<java.version>1.8</java.version>
 		<openhtml.version>1.0.10</openhtml.version>
@@ -285,14 +285,14 @@
 			</properties>
 		</profile>
 		<profile>
-			<!--測試環境(榮利) -->
+			<!--測試環境 -->
 			<id>sit</id>
 			<properties>
 				<profileActive>sit</profileActive>
 			</properties>
 		</profile>
 		<profile>
-			<!--測試環境(集保) -->
+			<!--測試環境 -->
 			<id>test</id>
 			<properties>
 				<profileActive>test</profileActive>
